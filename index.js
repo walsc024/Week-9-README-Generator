@@ -1,4 +1,6 @@
 const inquirer = require('inquirer')
+const path = require('path');
+const generateMarkdown = require('./utils/generateMarkdown');
 // array of questions for user
 const questions = [
 {
@@ -16,6 +18,9 @@ function writeToFile(fileName, data) {
 function init() {
 inquirer.prompt(questions).then((userAnswers) => {
 console.log(userAnswers)
+var newReadMeLocation = path.join(process.cwd(), "NewREADME.md"); 
+var formattedData = generateMarkdown(userAnswers)
+writeToFile(newReadMeLocation, formattedData)
 })
 }
 
