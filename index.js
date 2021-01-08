@@ -1,6 +1,7 @@
 const inquirer = require('inquirer')
 const path = require('path');
 const generateMarkdown = require('./utils/generateMarkdown');
+const fs = require('fs')
 // array of questions for user
 const questions = [
 {
@@ -12,6 +13,7 @@ const questions = [
 
 // function to write README file
 function writeToFile(fileName, data) {
+    fs.writeFileSync(fileName, data)
 }
 
 // function to initialize program
