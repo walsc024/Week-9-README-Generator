@@ -10,18 +10,17 @@ function generateMarkdown(data) {
 * [Installation](#Installation)
 * [Usage](#Usage)
 * [License](#License)
-* [Report](#report)
 * [Contributions](#Contribution)
 * [Tests](#Test)
-* [Questions](#questions)
+* [Questions](#Questions)
 
-  ## Installation Instructions
+  ## Installation 
   ${data.Installation}
 
-  ## Usage of Application
+  ## Usage 
   ${data.Usage}
 
-  ## Licence 
+  ## License 
   ${data.License}
 
   ## Contribution 
