@@ -14,6 +14,9 @@ function generateMarkdown(data) {
 
   ## Licence 
   ${data.Licence}
+
+  ## Contribution 
+  ${data.Contribution}
 `;
 }
 
