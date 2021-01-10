@@ -11,6 +11,9 @@ function generateMarkdown(data) {
 
   ## Usage of Application
   ${data.Usage}
+
+  ## Licence 
+  ${data.Licence}
 `;
 }
 

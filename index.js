@@ -24,6 +24,12 @@ const questions = [
     name: "Usage",
     message: "Usage of this application?"
 }, 
+{
+    type: "input",
+    name: "Licence",
+    message: "Licence of this application?"
+}, 
+
 
 ];
 
