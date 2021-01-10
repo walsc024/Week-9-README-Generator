@@ -34,6 +34,11 @@ const questions = [
     name: "Contribution",
     message: "Contribution guidelines of this application?"
 }, 
+{
+    type: "input",
+    name: "Test",
+    message: "Test instructions of this application?"
+}, 
 
 
 ];

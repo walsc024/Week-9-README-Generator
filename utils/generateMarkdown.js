@@ -17,6 +17,9 @@ function generateMarkdown(data) {
 
   ## Contribution 
   ${data.Contribution}
+
+  ## Test Instructions
+  ${data.Test}
 `;
 }
 
