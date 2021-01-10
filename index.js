@@ -23,12 +23,13 @@ const questions = [
     type: "input",
     name: "Usage",
     message: "Usage of this application?"
-}, 
+},  
 {
-    type: "input",
-    name: "Licence",
-    message: "Licence of this application?"
-}, 
+    type: 'list',
+    name: 'license',
+    message: 'What kind of license should your project have?',
+    choices: ['MIT', 'APACHE', 'None'],
+  },
 {
     type: "input",
     name: "Contribution",
