@@ -19,6 +19,11 @@ const questions = [
     name: "Installation",
     message: "Installation instructions of this application?"
 }, 
+{
+    type: "input",
+    name: "Usage",
+    message: "Usage of this application?"
+}, 
 
 ];
 

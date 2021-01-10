@@ -8,6 +8,9 @@ function generateMarkdown(data) {
 
   ## Installation Instructions
   ${data.Installation}
+
+  ## Usage of Application
+  ${data.Usage}
 `;
 }
 
