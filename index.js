@@ -8,7 +8,18 @@ const questions = [
     type: "input",
     name: "title",
     message: "What is the title of this application?"
-}
+},
+{
+    type: "input",
+    name: "Description",
+    message: "Describe this application?"
+}, 
+{
+    type: "input",
+    name: "Installation",
+    message: "Installation instructions of this application?"
+}, 
+
 ];
 
 // function to write README file
