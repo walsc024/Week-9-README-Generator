@@ -26,7 +26,7 @@ const questions = [
 },  
 {
     type: 'list',
-    name: 'license',
+    name: 'License',
     message: 'What kind of license should your project have?',
     choices: ['MIT', 'APACHE', 'None'],
   },
@@ -40,6 +40,22 @@ const questions = [
     name: "Test",
     message: "Test instructions of this application?"
 }, 
+{
+    type: "input",
+    name: "questions",
+    message: "Please detail how to contact you for further questions"
+}, 
+{
+    type: "input",
+    name: "github",
+    message: "Link to GitHub"
+}, 
+{
+    type: "input",
+    name: "email",
+    message: "E-Mail Address"
+}, 
+
 
 
 ];
